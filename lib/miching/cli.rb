@@ -1,4 +1,3 @@
-
 class CLI
     
     @@genres = ["chamber", "keyboard", "orchestral", "vocal"]
@@ -80,3 +79,5 @@ class CLI
     end 
 
 end
+
+##

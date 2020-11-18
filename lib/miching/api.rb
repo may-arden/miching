@@ -1,4 +1,3 @@
-
 class API
 
     def self.get_songs(genre)
@@ -12,5 +11,5 @@ class API
 
 end
 
-
+##
  
