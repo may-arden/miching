@@ -1,44 +1,10 @@
-# Miching
+welcome! inspired by brian eno's oblique strategies & the traditional chinese practice of the i ching, miching is a cleromancy application for early music enthusiasts
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/miching`. To experiment with that code, run `bin/console` for an interactive prompt.
+description: choose a genre from the list, hold your breath & wait a moment as
+the machine determines by random selection which bach composition within that category will suite your mood today
 
-TODO: Delete this and the text above, and describe your gem
+getting started: in your terminal, make sure you are in the project's main directory. enter 'bundle install' & when that is complete enter './bin/miching' & let the program work its magic. the program automatically terminates after you've made your selection & it's delivered your results
 
-## Installation
+thank you OpenOpus.org for curating such a friendly & comprehensive application programming interface
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'miching'
-```
-
-And then execute:
-
-    $ bundle install
-
-Or install it yourself as:
-
-    $ gem install miching
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/miching. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/miching/blob/master/CODE_OF_CONDUCT.md).
-
-
-## License
-
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
-## Code of Conduct
-
-Everyone interacting in the Miching project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/miching/blob/master/CODE_OF_CONDUCT.md).
+bug reports & pull requests are welcome on GitHub at https://github.com/may-arden/miching
