@@ -1,6 +1,15 @@
 source "https://rubygems.org"
 
-# Specify your gem's dependencies in miching.gemspec
-gemspec
+
+gem 'pry'
+
+gem 'json'
+
+gem 'net-http'
+
+gem 'awesome_print'
+
+
+
 
 gem "rake", "~> 12.0"
