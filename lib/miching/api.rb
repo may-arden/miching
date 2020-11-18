@@ -10,5 +10,3 @@ class API
     end
 
 end
-
-##

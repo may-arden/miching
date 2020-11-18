@@ -8,5 +8,3 @@ getting started: in your terminal, make sure you are in the project's main direc
 thank you OpenOpus.org for curating such a friendly & comprehensive application programming interface
 
 bug reports & pull requests are welcome on GitHub at https://github.com/may-arden/miching
-
-##
