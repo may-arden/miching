@@ -1,4 +1,4 @@
-welcome! inspired by brian eno's oblique strategies & the ancient practice of i ching, miching is a cleromancy application for early music enthusiasts
+welcome! inspired by brian eno's oblique strategies & the ancient practice of the i ching, miching is a cleromancy application for early music enthusiasts
 
 description: choose a genre from the list, hold your breath & wait a moment as
 the machine determines by random selection which bach composition within that category will suite your mood 
