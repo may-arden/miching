@@ -73,7 +73,6 @@ class CLI
         puts "\n"
         puts "\n"
         sleep(3)
-        binding.pry 
         puts Song.provide_title(@user_response)
         puts "\n"
         puts "\n"
@@ -107,8 +106,8 @@ class CLI
     def display_saved_songs
         puts "\n"
         puts "\n"
-        sleep(3)
-        Song.find_saved.each { |s| puts "#{s.title} - #{s.genre}"} 
+        sleep(2)
+        Song.find_saved.each { |s| puts "#{s.title.downcase} - #{s.genre.downcase}"} 
         puts "\n"
         puts "\n"
         sleep(3)
