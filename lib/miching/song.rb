@@ -6,7 +6,7 @@ class Song
     def initialize(title, genre, saved = false)
         @title = title
         @genre = genre
-        @@all << self
+        @@all << selfchamber
     end 
 
     def self.all
