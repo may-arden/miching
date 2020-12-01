@@ -42,11 +42,11 @@ class CLI
 
     def ask_for_input
         puts "\n"
-        puts "please enter your desired genre and press return"
+        puts "please enter your desired genre & press return"
         puts "\n"
         puts "\n"
         sleep(1)
-        puts "if you wish to exit the program, type 'exit' and press return"
+        puts "if you wish to exit the program, type 'exit' & press return"
         puts "\n"
         puts "\n"
     end 
