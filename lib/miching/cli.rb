@@ -80,7 +80,7 @@ class CLI
     end 
 
     def play_again
-        puts "would you like to play again? type 'yes' or 'no'"
+        puts "would you like to play again? type 'yes' or 'no' & press return"
         puts "\n"
         puts "\n"
         @user_response = gets.chomp
