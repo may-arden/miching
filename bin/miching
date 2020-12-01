@@ -2,4 +2,7 @@
 
 require_relative '../environment'
 
+# we use the .new instance method to initialize a new instance of a CLI object
+# and then ask it to run its first method which is .call
+
 CLI.new.call

@@ -1,10 +1,11 @@
 class Song
-    attr_accessor :song
+    attr_accessor :title, :genre, :saved 
 
     @@all = []
 
-    def initialize(song)
-        @song = song
+    def initialize(title, genre, saved = false)
+        @title = title
+        @genre = genre
         @@all << self
     end 
 
@@ -12,15 +13,22 @@ class Song
         @@all
     end 
 
-    def self.clear_all
-        @@all = []
+    def self.find_by_genre(genre)
+        @@all.select { |s| s.genre == genre }
     end 
 
-    def self.provide_title
-        title = @@all.to_s.split(" @song=")
-        title.shift
-        title_string = title.to_s
-        puts title_string.gsub(/\W/, ' ').downcase
+    def self.find_saved
+        @@all.select { |s| s.saved }
+    end 
+
+    def self.find_unsaved(array)
+        array.select { |s| !s.saved }
+    end 
+
+    def self.provide_title(user_response)
+        song = find_unsaved(find_by_genre(user_response)).sample
+        song.saved = true 
+        song.title.downcase 
     end  
 
 end

@@ -4,9 +4,14 @@ class API
         url = "https://api.openopus.org/work/list/composer/87/#{genre}.json"
         uri = URI(url)
         response = Net::HTTP.get(uri) 
-        hash = JSON.parse(response) 
-        song = hash["works"].sample["title"]
-        Song.new(song)
+        parsed_response = JSON.parse(response) 
+        parsed_response["works"].each do |hash, key|
+         hash.each do |key, value|
+          if key == "title"
+            Song.new(value, genre) 
+          end
+         end 
+        end   
     end
 
 end
