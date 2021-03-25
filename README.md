@@ -9,7 +9,3 @@ thank you OpenOpus.org for curating such a friendly & comprehensive application 
 
 bug reports & pull requests are welcome on GitHub at https://github.com/may-arden/miching
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=IOYAYz0mY0I"
-" target="_blank"><img src="http://img.youtube.com/vi/IOYAYz0mY0I/0.jpg" 
-alt="demo" width="240" height="180" border="10" /></a>
-
